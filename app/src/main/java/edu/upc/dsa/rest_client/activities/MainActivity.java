@@ -7,8 +7,6 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import java.io.IOException;
-
 import edu.upc.dsa.rest_client.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void btnClicked(View view) {
         if(view==tracksBtn){
-            Intent intentRegister = new Intent(MainActivity.this, GadgetActivity.class);
+            Intent intentRegister = new Intent(MainActivity.this, TrackListActivity.class);
             MainActivity.this.startActivity(intentRegister);
         }
     }

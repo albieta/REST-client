@@ -12,15 +12,15 @@ import retrofit2.http.PUT;
 import retrofit2.http.Path;
 
 public interface Api {
-    @GET("/tracks")
+    @GET("tracks")
     Call<List<Track>> getTracks();
 
-    @POST("/tracks")
+    @POST("tracks")
     Call<Track> createTrack(@Body Track track);
 
-    @PUT("/tracks")
+    @PUT("tracks")
     Call<Void> updateTrack(@Body Track track);
 
-    @DELETE("/tracks/{id}")
+    @DELETE("tracks/{id}")
     Call<Void> deleteTrack(@Path("id") String id);
 }

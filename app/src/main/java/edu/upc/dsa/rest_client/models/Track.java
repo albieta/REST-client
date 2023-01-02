@@ -7,7 +7,8 @@ public class Track {
 
     public Track(){}
 
-    public Track(String title, String singer) {
+    public Track(String id, String title, String singer) {
+        this.id = id;
         this.title = title;
         this.singer = singer;
     }
