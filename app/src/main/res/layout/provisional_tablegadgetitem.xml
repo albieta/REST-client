@@ -10,37 +10,37 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/imgGadget"
+            android:id="@+id/imgTrack"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:scaleType="centerCrop"
             app:srcCompat="@drawable/ic_launcher_background" />
 
         <TextView
-            android:id="@+id/idGadget"
+            android:id="@+id/idTrack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_marginLeft="10dp"
-            android:layout_toRightOf="@+id/imgGadget"
+            android:layout_toRightOf="@+id/imgTrack"
             android:text="TextView" />
 
         <TextView
-            android:id="@+id/costGadget"
+            android:id="@+id/titleTrack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/idGadget"
-            android:layout_alignLeft="@+id/idGadget"
+            android:layout_below="@+id/idTrack"
+            android:layout_alignLeft="@+id/idTrack"
             android:text="TextView"
 
             />
 
         <TextView
-            android:id="@+id/descriptionGadget"
+            android:id="@+id/singerTrack"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/costGadget"
-            android:layout_alignLeft="@+id/costGadget"
+            android:layout_below="@+id/titleTrack"
+            android:layout_alignLeft="@+id/titleTrack"
             android:text="TextView" />
 
         <View
@@ -48,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="1dp"
             android:layout_above="@+id/compartir"
-            android:layout_toRightOf="@+id/imgGadget"
+            android:layout_toRightOf="@+id/imgTrack"
             android:background="#ffd5d5d5" />
 
         <ImageView

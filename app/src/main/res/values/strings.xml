@@ -21,4 +21,5 @@
     <string name="updating_birthday">updating_birthday</string>
     <string name="updating_email">updating_email</string>
     <string name="updating_password">updating_password</string>
+    <string name="List_tracks">See track list</string>
 </resources>

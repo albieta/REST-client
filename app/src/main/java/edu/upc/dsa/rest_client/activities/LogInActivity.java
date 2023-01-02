@@ -18,14 +18,12 @@ import java.io.IOException;
 import edu.upc.dsa.rest_client.Api;
 import edu.upc.dsa.rest_client.R;
 import edu.upc.dsa.rest_client.RetrofitClient;
-import edu.upc.dsa.rest_client.models.Credentials;
-import edu.upc.dsa.rest_client.models.UserId;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
 public class LogInActivity extends AppCompatActivity {
-
+/*
     TextInputEditText emailTEXTE;
     TextInputEditText passwordTxt;
 
@@ -116,4 +114,6 @@ public class LogInActivity extends AppCompatActivity {
         LogInActivity.this.startActivity(intentRegister);
 
     }
+
+ */
 }

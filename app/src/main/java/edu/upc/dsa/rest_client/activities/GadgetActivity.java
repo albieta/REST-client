@@ -1,9 +1,9 @@
 package edu.upc.dsa.rest_client.activities;
-
+/*
 import static edu.upc.dsa.rest_client.activities.LogInActivity.SHARED_PREFS;
 import static edu.upc.dsa.rest_client.activities.LogInActivity.TEXT1;
 import static edu.upc.dsa.rest_client.activities.LogInActivity.TEXT2;
-
+*/
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -24,20 +24,14 @@ import java.util.List;
 import edu.upc.dsa.rest_client.Api;
 import edu.upc.dsa.rest_client.R;
 import edu.upc.dsa.rest_client.RetrofitClient;
-import edu.upc.dsa.rest_client.models.Gadget;
 import retrofit2.Call;
 
 public class GadgetActivity extends AppCompatActivity {
-
-    //TableLayout tableLayout;
-
     Api APIservice;
-
-    Button logout;
 
     private RecyclerView recyclerViewGadgets;
     private RecyclerViewAdapter adaptadorGadgets;
-
+/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -94,5 +88,5 @@ public class GadgetActivity extends AppCompatActivity {
         Intent intentRegister = new Intent(GadgetActivity.this, MainActivity.class);
         GadgetActivity.this.startActivity(intentRegister);
     }
-
+*/
 }

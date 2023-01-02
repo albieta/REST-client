@@ -2,27 +2,25 @@ package edu.upc.dsa.rest_client;
 
 import java.util.List;
 
-import edu.upc.dsa.rest_client.models.Credentials;
-import edu.upc.dsa.rest_client.models.Gadget;
-import edu.upc.dsa.rest_client.models.User;
-import edu.upc.dsa.rest_client.models.UserId;
-import edu.upc.dsa.rest_client.models.UserInformation;
+import edu.upc.dsa.rest_client.models.Track;
 import retrofit2.Call;
 import retrofit2.http.Body;
+import retrofit2.http.DELETE;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.PUT;
 import retrofit2.http.Path;
 
 public interface Api {
-    @POST("shop/user/register")
-    Call<User> createUser(@Body User user);
+    @GET("/tracks")
+    Call<List<Track>> getTracks();
 
-    @POST("shop/user/login")
-    Call<UserId> logIn(@Body Credentials credentials);
+    @POST("/tracks")
+    Call<Track> createTrack(@Body Track track);
 
-    @GET("shop/gadget/all")
-    Call<List<Gadget>> getGadgets();
+    @PUT("/tracks")
+    Call<Void> updateTrack(@Body Track track);
 
-    @GET("shop/user/{idUser}")
-    Call<UserInformation> getUser(@Path("idUser") String idUser);
+    @DELETE("/tracks/{id}")
+    Call<Void> deleteTrack(@Path("id") String id);
 }

@@ -14,9 +14,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 import edu.upc.dsa.rest_client.R;
-import edu.upc.dsa.rest_client.models.Gadget;
 
-public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
+public class RecyclerViewAdapter /*extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>*/{
+    /*
     public static class ViewHolder extends RecyclerView.ViewHolder{
         public TextView id,cost,description;
         ImageView fotoGadget;
@@ -55,4 +55,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public int getItemCount() {
         return gadgets.size();
     }
+
+     */
 }

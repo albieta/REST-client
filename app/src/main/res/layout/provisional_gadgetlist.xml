@@ -4,24 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:background="@drawable/main_back_dif">
+    android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/title_gadgets"
+        android:id="@+id/title_tracks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="GADGET SHOP"
-        android:textAlignment="center"
         android:layout_marginTop="20dp"
         android:fontFamily="@font/play_bold"
+        android:text="TRACKS"
+        android:textAlignment="center"
         android:textColor="@color/green_vibrant"
         android:textSize="25dp" />
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerGadget"
+        android:id="@+id/recyclerTrack"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_below="@+id/title_gadgets">
-    </androidx.recyclerview.widget.RecyclerView>
+        android:layout_below="@+id/title_tracks"
+        android:layout_marginTop="20dp"></androidx.recyclerview.widget.RecyclerView>
 </RelativeLayout>
