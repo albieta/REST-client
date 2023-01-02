@@ -1,4 +1,4 @@
-package edu.upc.dsa.andoroid_dsa.activities;
+package edu.upc.dsa.rest_client.activities;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,8 +13,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-import edu.upc.dsa.andoroid_dsa.R;
-import edu.upc.dsa.andoroid_dsa.models.Gadget;
+import edu.upc.dsa.rest_client.R;
+import edu.upc.dsa.rest_client.models.Gadget;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
     public static class ViewHolder extends RecyclerView.ViewHolder{

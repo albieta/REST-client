@@ -1,19 +1,15 @@
-package edu.upc.dsa.andoroid_dsa.activities;
+package edu.upc.dsa.rest_client.activities;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import java.io.IOException;
 
-import edu.upc.dsa.andoroid_dsa.R;
+import edu.upc.dsa.rest_client.R;
 
 public class MainActivity extends AppCompatActivity {
 

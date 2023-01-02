@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'edu.upc.dsa.andoroid_dsa'
+    namespace 'edu.upc.dsa.rest_client'
     compileSdk 32
 
     defaultConfig {
-        applicationId "edu.upc.dsa.andoroid_dsa"
+        applicationId "edu.upc.dsa.rest_client"
         minSdk 24
         targetSdk 32
         versionCode 1

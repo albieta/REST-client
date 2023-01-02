@@ -1,14 +1,12 @@
-package edu.upc.dsa.andoroid_dsa;
-
-import androidx.annotation.BinderThread;
+package edu.upc.dsa.rest_client;
 
 import java.util.List;
 
-import edu.upc.dsa.andoroid_dsa.models.Credentials;
-import edu.upc.dsa.andoroid_dsa.models.Gadget;
-import edu.upc.dsa.andoroid_dsa.models.User;
-import edu.upc.dsa.andoroid_dsa.models.UserId;
-import edu.upc.dsa.andoroid_dsa.models.UserInformation;
+import edu.upc.dsa.rest_client.models.Credentials;
+import edu.upc.dsa.rest_client.models.Gadget;
+import edu.upc.dsa.rest_client.models.User;
+import edu.upc.dsa.rest_client.models.UserId;
+import edu.upc.dsa.rest_client.models.UserInformation;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;

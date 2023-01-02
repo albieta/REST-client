@@ -1,41 +1,31 @@
-package edu.upc.dsa.andoroid_dsa.activities;
+package edu.upc.dsa.rest_client.activities;
 
-import static edu.upc.dsa.andoroid_dsa.activities.LogInActivity.SHARED_PREFS;
-import static edu.upc.dsa.andoroid_dsa.activities.LogInActivity.TEXT1;
-import static edu.upc.dsa.andoroid_dsa.activities.LogInActivity.TEXT2;
+import static edu.upc.dsa.rest_client.activities.LogInActivity.SHARED_PREFS;
+import static edu.upc.dsa.rest_client.activities.LogInActivity.TEXT1;
+import static edu.upc.dsa.rest_client.activities.LogInActivity.TEXT2;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.RelativeLayout;
-import android.widget.TableLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.google.android.material.snackbar.Snackbar;
-
 import java.io.IOException;
 import java.util.List;
 
-import edu.upc.dsa.andoroid_dsa.Api;
-import edu.upc.dsa.andoroid_dsa.R;
-import edu.upc.dsa.andoroid_dsa.RetrofitClient;
-import edu.upc.dsa.andoroid_dsa.models.Gadget;
-import edu.upc.dsa.andoroid_dsa.models.User;
+import edu.upc.dsa.rest_client.Api;
+import edu.upc.dsa.rest_client.R;
+import edu.upc.dsa.rest_client.RetrofitClient;
+import edu.upc.dsa.rest_client.models.Gadget;
 import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class GadgetActivity extends AppCompatActivity {
 

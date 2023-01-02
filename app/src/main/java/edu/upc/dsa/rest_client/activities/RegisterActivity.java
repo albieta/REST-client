@@ -1,4 +1,4 @@
-package edu.upc.dsa.andoroid_dsa.activities;
+package edu.upc.dsa.rest_client.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.textfield.TextInputEditText;
 
-import edu.upc.dsa.andoroid_dsa.Api;
-import edu.upc.dsa.andoroid_dsa.R;
-import edu.upc.dsa.andoroid_dsa.RetrofitClient;
-import edu.upc.dsa.andoroid_dsa.models.User;
+import edu.upc.dsa.rest_client.Api;
+import edu.upc.dsa.rest_client.R;
+import edu.upc.dsa.rest_client.RetrofitClient;
+import edu.upc.dsa.rest_client.models.User;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

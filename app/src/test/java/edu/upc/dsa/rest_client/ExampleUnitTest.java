@@ -1,4 +1,4 @@
-package edu.upc.dsa.andoroid_dsa;
+package edu.upc.dsa.rest_client;
 
 import org.junit.Test;
 

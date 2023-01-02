@@ -1,14 +1,11 @@
-package edu.upc.dsa.andoroid_dsa.activities;
+package edu.upc.dsa.rest_client.activities;
 
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.telecom.CallRedirectionService;
 import android.util.Log;
 import android.view.View;
-import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,12 +15,11 @@ import com.google.android.material.textfield.TextInputEditText;
 
 import java.io.IOException;
 
-import edu.upc.dsa.andoroid_dsa.Api;
-import edu.upc.dsa.andoroid_dsa.R;
-import edu.upc.dsa.andoroid_dsa.RetrofitClient;
-import edu.upc.dsa.andoroid_dsa.models.Credentials;
-import edu.upc.dsa.andoroid_dsa.models.User;
-import edu.upc.dsa.andoroid_dsa.models.UserId;
+import edu.upc.dsa.rest_client.Api;
+import edu.upc.dsa.rest_client.R;
+import edu.upc.dsa.rest_client.RetrofitClient;
+import edu.upc.dsa.rest_client.models.Credentials;
+import edu.upc.dsa.rest_client.models.UserId;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;

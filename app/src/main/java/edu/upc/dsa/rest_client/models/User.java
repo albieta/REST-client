@@ -1,4 +1,4 @@
-package edu.upc.dsa.andoroid_dsa.models;
+package edu.upc.dsa.rest_client.models;
 
 public class User {
 

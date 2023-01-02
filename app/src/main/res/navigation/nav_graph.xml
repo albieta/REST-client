@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="edu.upc.dsa.andoroid_dsa.activities.GadgetActivity"
+        android:name="edu.upc.dsa.rest_client.activities.GadgetActivity"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/gadget_list_main">
 
@@ -17,7 +17,7 @@
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
-        android:name="edu.upc.dsa.andoroid_dsa.activities.LogInActivity"
+        android:name="edu.upc.dsa.rest_client.activities.LogInActivity"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/login_main">
 

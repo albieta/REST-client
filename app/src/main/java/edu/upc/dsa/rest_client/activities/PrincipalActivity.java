@@ -1,31 +1,21 @@
-package edu.upc.dsa.andoroid_dsa.activities;
+package edu.upc.dsa.rest_client.activities;
 
-import static edu.upc.dsa.andoroid_dsa.activities.LogInActivity.SHARED_PREFS;
-import static edu.upc.dsa.andoroid_dsa.activities.LogInActivity.TEXT1;
-import static edu.upc.dsa.andoroid_dsa.activities.LogInActivity.TEXT2;
+import static edu.upc.dsa.rest_client.activities.LogInActivity.SHARED_PREFS;
+import static edu.upc.dsa.rest_client.activities.LogInActivity.TEXT1;
+import static edu.upc.dsa.rest_client.activities.LogInActivity.TEXT2;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.ProgressBar;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import com.google.android.material.snackbar.Snackbar;
-import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import edu.upc.dsa.andoroid_dsa.Api;
-import edu.upc.dsa.andoroid_dsa.R;
-import edu.upc.dsa.andoroid_dsa.RetrofitClient;
-import edu.upc.dsa.andoroid_dsa.models.User;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
+import edu.upc.dsa.rest_client.Api;
+import edu.upc.dsa.rest_client.R;
 
 public class PrincipalActivity extends AppCompatActivity {
 

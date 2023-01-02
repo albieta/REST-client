@@ -1,4 +1,4 @@
-package edu.upc.dsa.andoroid_dsa.activities;
+package edu.upc.dsa.rest_client.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,8 +9,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import edu.upc.dsa.andoroid_dsa.R;
-import edu.upc.dsa.andoroid_dsa.models.UserInformation;
+import edu.upc.dsa.rest_client.R;
 
 public class YourProfileActivity extends AppCompatActivity {
     public String username;
