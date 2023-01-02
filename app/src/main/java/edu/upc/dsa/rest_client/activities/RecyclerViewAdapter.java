@@ -25,6 +25,9 @@ import kotlin.collections.ArrayDeque;
 import retrofit2.Call;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder>{
+    public List<Track> tracks;
+    public ViewHolder viewHolder;
+
     private static RecyclerViewClickListener itemListener;
 
     public static class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
@@ -44,12 +47,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         @Override
         public void onClick(View view) {
-            itemListener.recyclerViewListClicked(view, this.getLayoutPosition());
+            itemListener.recyclerViewListClicked(this.getLayoutPosition());
         }
     }
-
-    public List<Track> tracks;
-    public ViewHolder viewHolder;
 
     public RecyclerViewAdapter(List<Track> tracks, RecyclerViewClickListener itemListener) throws IOException {
         this.tracks = tracks;

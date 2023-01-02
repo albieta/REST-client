@@ -33,7 +33,6 @@ public class TrackListActivity extends AppCompatActivity implements RecyclerView
         super.onCreate(savedInstanceState);
         setContentView(R.layout.track_list);
         recyclerViewTracks = (RecyclerView) findViewById(R.id.recyclerTrack);
-        Log.d("DDDD", "" + recyclerViewTracks);
         recyclerViewTracks.setLayoutManager(new LinearLayoutManager(this));
 
         APIservice = RetrofitClient.getInstance().getMyApi();
@@ -61,7 +60,7 @@ public class TrackListActivity extends AppCompatActivity implements RecyclerView
     }
 
     @Override
-    public void recyclerViewListClicked(View view, int position) {
+    public void recyclerViewListClicked(int position) {
         Track track = adapterTracks.tracks.get(position);
         Intent intentTrack = new Intent(TrackListActivity.this, TrackActivity.class);
         Bundle adapterInfo = new Bundle();
